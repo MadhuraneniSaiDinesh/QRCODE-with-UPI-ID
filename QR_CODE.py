@@ -20,6 +20,8 @@ google_pay_qr = qrcode.make(google_pay_url)
 paytm_qr = qrcode.make(paytm_url)
 
 
+
+
 # save the QR code to image file 
 phone_pay_qr.save('phone_pay_qr.png')
 google_pay_qr.save('google_pay_qr.png')
